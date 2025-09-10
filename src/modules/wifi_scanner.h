@@ -1,7 +1,7 @@
 #ifndef WIFI_SCANNER_H
 #define WIFI_SCANNER_H
 
-#include "globals.h"
+#include "../core/globals.h"
 
 void processScanResults(int n);
 void enterScanMode();

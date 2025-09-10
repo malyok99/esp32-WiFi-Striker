@@ -1,7 +1,7 @@
 #ifndef PACKET_ANALYZER_H
 #define PACKET_ANALYZER_H
 
-#include "globals.h"
+#include "../core/globals.h"
 
 void analyzePacket(const wifi_promiscuous_pkt_t* pkt);
 String getProtocolName(uint8_t type);

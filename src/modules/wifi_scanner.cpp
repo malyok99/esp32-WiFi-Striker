@@ -1,5 +1,5 @@
 #include "wifi_scanner.h"
-#include "lcd_handler.h"
+#include "../output/lcd_handler.h"
 
 void processScanResults(int n) {
   networkCount = (n < 20) ? n : 20;

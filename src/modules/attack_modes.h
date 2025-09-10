@@ -1,7 +1,7 @@
 #ifndef ATTACK_MODES_H
 #define ATTACK_MODES_H
 
-#include "globals.h"
+#include "../core/globals.h"
 
 void enterPSMode();
 void enterMITMMode();

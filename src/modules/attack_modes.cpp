@@ -1,5 +1,5 @@
 #include "attack_modes.h"
-#include "lcd_handler.h"
+#include "../output/lcd_handler.h"
 #include "packet_analyzer.h"
 #include "web_servers.h"
 

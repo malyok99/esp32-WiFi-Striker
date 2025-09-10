@@ -1,8 +1,8 @@
-#include "globals.h"
-#include "lcd_handler.h"
-#include "input_handler.h"
-#include "wifi_scanner.h"
-#include "attack_modes.h"
+#include "src/core/globals.h"
+#include "src/output/lcd_handler.h"
+#include "src/input/input_handler.h"
+#include "src/modules/wifi_scanner.h"
+#include "src/modules/attack_modes.h"
 
 void setup() {
   Serial.begin(115200);

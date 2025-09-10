@@ -1,7 +1,7 @@
 #include "input_handler.h"
-#include "lcd_handler.h"
-#include "wifi_scanner.h"
-#include "attack_modes.h"
+#include "../output/lcd_handler.h"
+#include "../modules/wifi_scanner.h"
+#include "../modules/attack_modes.h"
 
 void handleJoystick() {
   int xVal = analogRead(joyX);

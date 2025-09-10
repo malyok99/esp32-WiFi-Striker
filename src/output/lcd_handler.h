@@ -1,7 +1,7 @@
 #ifndef LCD_HANDLER_H
 #define LCD_HANDLER_H
 
-#include "globals.h"
+#include "../core/globals.h"
 
 void showMainMenu();
 void showScanResults();
